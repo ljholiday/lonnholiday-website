@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+/* Base Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* So I can see all the boxes 
+    border: 1px solid black;
+    */
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.center {
+	margin: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    /* 1.6*10 = 16px */
+    font-size: 1.6rem;
+    color: #faf5ee;
+}
+
+h1,
+h2,
+p {
+
+    margin: 1.6rem 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.button{
+
+    background-color: #006699;
+    color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+
+    .row{
+        flex-direction: column;
+    }
+
+} 
+
+/* ends media quieries */	
+
+
+/* End Base Styling */
+/* Header Section */
+header {
+    height: 100vh;
+/*
+    background: linear-gradient(#fff8, #fff0, #fff8), url('https://lonnholiday.com/app/assets/images/waterfall.jpg');
+*/
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://lonnholiday.com/assets/images/waterfall.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #faf5ee;
+}
+
+/* Navbar */
+
+.logo {
+    color: orange;
+}
+
+.logo h1 {
+    font-size: 5rem;
+    color: orange;
+}
+
+.menu a {
+        color: orange;
+}
+
+nav {
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav box-icon {
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 2.5rem;
+}
+
+nav ul li a:hover {
+    color: #006699;
+    transition: .5s ease-in-out;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+	
+	logo {
+		width: 100px;
+		left: 4px;
+	}
+
+	nav {
+        position: relative;
+    }
+
+    nav box-icon {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 32px;
+    }
+
+    nav ul {
+        background: #faf5ee;
+        display: none;
+    }
+
+    .showmenu {
+        display: block;
+        z-index: 99;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 2% 0;
+    }
+
+    nav ul li a {
+        color: #222;
+    }
+
+} 
+
+
+/* End Navbar Section */
+
+/* Header Content */
+
+.header-content {
+    width: 50%;
+    position: relative;
+    left: 4%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+
+    .header-content{
+        width: 100%;
+        top:8%;
+        left:0;
+        text-align: center;
+        padding:0 8px;
+    }
+	
+}
+
+
+/* End Header Content */
+
+/* About Section  */
+
+.about {
+    background-color: #016699;
+    color: white;
+}
+
+.about-left {
+    flex-basis: 70%;
+}
+
+.about-right {
+    flex-basis: 30%;
+}
+
+.about img {
+	width: 70%;
+	height: auto;
+	margin-left: 5rem;
+	border-radius: 3rem;
+}
+
+/* End About Section */
+
+/* Process Section */
+
+.process .row {
+    justify-content: space-between;
+}
+
+.process-content {
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 2px;
+    background-color: #222;
+    margin: auto;
+    position: relative;
+}
+
+.progress-bar .c1,
+.progress-bar .c2,
+.progress-bar .c3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #222;
+    position: absolute;
+}
+
+.progress-bar .c1 {
+    top: -8px;
+    left: 50px;
+}
+
+.progress-bar .c2 {
+    top: -8px;
+    left: 50%;
+}
+
+.progress-bar .c3 {
+    top: -8px;
+    right: 50px;
+}
+
+.box1,
+.box2,
+.box3 {
+    padding: .8rem;
+    width: 30%;
+}
+
+/*
+*/
+
+/* This is how I solved the alignment issue of the process boxes */
+.process .row {
+	align-items: flex-start;
+}
+
+.process .box1 {
+    text-align: left;
+}
+
+.process .box2 {
+    text-align: center;
+}
+
+.process .box3 {
+    text-align: right;
+}
+
+.process-content h2 {
+    color: #006699;
+}
+
+.process-content .row {
+	color: black;
+}
+
+/* media queries */
+
+@media only screen and (max-width:768px) {
+
+    .progress-bar {
+        display: none;
+    }
+
+    .process-content{
+        margin-top: 20px;
+    }
+
+    .process .box1,
+    .process .box2,
+    .process .box3{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+}
+
+/* End Process Section */
+
+.cta	{
+	width: 80%;
+	margin: 0 0 0 5%;
+}
+
+@media only screen and (max-width:768px) {
+
+    .cta    {
+        width: 80%;
+        margin:1.2rem auto;
+    }	
+	
+
+}
+/* Footer */
+
+footer {
+    height: 80px;
+    background-color: #006699;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+}
+
+/* Contact Form */
+
+.contact    {
+    padding: 20px;
+}
+
+form {
+    margin: 1.2rem 0;
+}
+
+input {
+    font-size: 1.8rem;
+}
+
+input[type=text],
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: .2rem 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #006699;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 1.8rem;
+    color: #aaa; /* gray text in form fields */
+}
+
+.contact-us h1  {
+	text-align: center;
+    margin: 0;
+}
+
+.contact form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input {
+    width: 50%;
+}
+
+.contact textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    resize: none;
+    color: #000;
+    margin: 1.2rem 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width:768px) {
+
+
+    .contact form input {
+     width: 90%;
+    }
+
+    .contact textarea {
+     width: 90%;
+    }
+}
+
+/* End Contact Form */
+

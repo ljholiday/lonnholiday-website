@@ -1,0 +1,28 @@
+[16-May-2024 18:33:03 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "elonara" in /home/ljholida/public_html/app/mail.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ljholida/public_html/app/mail.php on line 14
+[16-May-2024 18:55:38 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "elonara" in /home/ljholida/public_html/app/mail.php on line 7
+[16-May-2024 18:56:14 UTC] PHP Parse error:  syntax error, unexpected token "," in /home/ljholida/public_html/app/mail.php on line 7
+[16-May-2024 19:17:12 UTC] PHP Parse error:  syntax error, unexpected variable "$recipient" in /home/ljholida/public_html/app/mail.php on line 11
+[16-May-2024 19:43:43 UTC] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/ljholida/public_html/app/mail.php on line 7
+[04-Jun-2024 12:38:15 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/app/mail.php on line 4
+[04-Jun-2024 12:38:15 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/app/mail.php on line 5
+[04-Jun-2024 12:38:15 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/app/mail.php on line 6
+[04-Jun-2024 12:38:15 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/app/mail.php on line 7
+[10-Oct-2024 12:23:43 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/app/mail.php on line 4
+[10-Oct-2024 12:23:43 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/app/mail.php on line 5
+[10-Oct-2024 12:23:43 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/app/mail.php on line 6
+[10-Oct-2024 12:23:43 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/app/mail.php on line 7
+[15-Jan-2025 11:15:21 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/app/mail.php on line 4
+[15-Jan-2025 11:15:21 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/app/mail.php on line 5
+[15-Jan-2025 11:15:21 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/app/mail.php on line 6
+[15-Jan-2025 11:15:21 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/app/mail.php on line 7
+[05-May-2025 02:57:44 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/app/mail.php on line 4
+[05-May-2025 02:57:44 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/app/mail.php on line 5
+[05-May-2025 02:57:44 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/app/mail.php on line 6
+[05-May-2025 02:57:44 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/app/mail.php on line 7
+[14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/app/mail.php on line 4
+[14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/app/mail.php on line 5
+[14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/app/mail.php on line 6
+[14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/app/mail.php on line 7

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<title>Elonara</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://elonara.com/css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+<body>
+
+<div>
+  <a href="https://elonara.com"><img src="https://elonara.com/img/elonara-logo-quattrocento-blue-nice-edge-4700x1100.png" alt="=ELONARA=" style="width:100%;"></a>
+</div>
+
+<div class="bottomleft">
+Elonara is a wholly owned subsidiary of 
+<a href="https://ljholiday.com">
+<span style="font-family: times;"><b>=LJH<span style="font-size: 80%;">OLIDAY</span>=</b>
+</a>
+</div>
+
+</body>
+</html>
+
+
