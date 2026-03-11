@@ -26,3 +26,15 @@ Stack trace:
 [14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/app/mail.php on line 5
 [14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/app/mail.php on line 6
 [14-Aug-2025 07:17:50 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/app/mail.php on line 7
+[01-Dec-2025 01:45:06 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 4
+[01-Dec-2025 01:45:06 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 5
+[01-Dec-2025 01:45:06 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 6
+[01-Dec-2025 01:45:06 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 7
+[07-Jan-2026 00:07:45 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 4
+[07-Jan-2026 00:07:45 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 5
+[07-Jan-2026 00:07:45 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 6
+[07-Jan-2026 00:07:45 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 7
+[10-Jan-2026 01:53:01 UTC] PHP Warning:  Undefined array key "name" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 4
+[10-Jan-2026 01:53:01 UTC] PHP Warning:  Undefined array key "email" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 5
+[10-Jan-2026 01:53:01 UTC] PHP Warning:  Undefined array key "subject" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 6
+[10-Jan-2026 01:53:01 UTC] PHP Warning:  Undefined array key "message" in /home/ljholida/public_html/lonnholiday.com/mail.php on line 7

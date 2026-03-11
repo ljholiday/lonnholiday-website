@@ -1,4 +1,11 @@
-README.txt for app.elonara.com landing page development.
+# README.md
+
+This will be the readme for my personal website, lonnholiday.com, repo.
+
+The main reason to keep this file for now is the links to the contact form design which I may or may not keep.
+
+
+Was README.txt for app.elonara.com landing page development.
 
 Landing page initially created by following step by step instructions from 
 https://youtu.be/SP1QMG6WPNk?si=WytOtNAcPqgYCHh9
